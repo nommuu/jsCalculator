@@ -11,7 +11,7 @@
     
 
     <div class="holder">
-        <h1>Sum Calculator</h1>
+        <h1>Calculator </h1>
 
         <div class="inputbox"> 
             <label>Enter First Number</label>
@@ -23,10 +23,18 @@
             <input type="text" id="num2"/>
         </div>
 
-        <div class="btn">
-            <button onclick="calculateSum()">Calculate Sum</button>
-            <button>Clear</button>
+        <div class="inputbox">
+            <label>Enter Third Number</label>
+            <input type="text" id="num3"/>
         </div>
+
+        <div class="btn">
+            <button onclick="calculateSum()"> + </button>
+            <button onclick="calculateProduct()"> x </button>
+
+            <button> C </button>
+        </div>
+
         <p id="result">This is for the answer</p>
         
 
